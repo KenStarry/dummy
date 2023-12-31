@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:okoa/core/data/api/api.dart';
+import 'package:okoa/di/di.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:get/get.dart';
 
 void main() async {
-  //  Initializing Supabase
+  //  Supabase
   await Supabase.initialize(url: Api.url, anonKey: Api.anonKey);
+
+  //  Dependencies
+  invokeDI();
 
   runApp(const MyApp());
 }
