@@ -26,8 +26,8 @@ dependencies:
   fluttertoast: ^8.2.4
   sliver_tools: ^0.2.12
   flutter_svg: ^2.0.9
-  image_picker: ^1.0.0
-  image_cropper: ^5.0.0
+  image_picker: ^1.0.5
+  image_cropper: ^5.0.1
 
 # Dev Dependencies
 dev_dependencies:
