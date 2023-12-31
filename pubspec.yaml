@@ -44,9 +44,11 @@ dev_dependencies:
 flutter_native_splash:
   color: "#ffffff"
   color_dark: "#343a40"
+  image: "assets/images/logo.svg"
   android_12:
     color: "#ffffff"
     color_dark: "#343a40"
+    image: "assets/images/logo.svg"
   android: true
   ios: true
   web: false
@@ -57,9 +59,8 @@ flutter:
 
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
 
   # fonts:
   #   - family: Schyler
