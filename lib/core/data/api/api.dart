@@ -6,10 +6,10 @@ part 'api.g.dart';
 @Envied(path: '.env')
 abstract class Api {
   //  Url
-  @EnviedField(varName: 'SUPABASE_URL', defaultValue: '')
-  static const String url = _Api.url;
+  @EnviedField(varName: 'SUPABASE_URL', defaultValue: '', obfuscate: true)
+  static final String url = _Api.url;
 
   //  Anon Key
-  @EnviedField(varName: 'SUPABASE_ANON_KEY', defaultValue: '')
-  static const String anonKey = _Api.anonKey;
+  @EnviedField(varName: 'SUPABASE_ANON_KEY', defaultValue: '', obfuscate: true)
+  static final String anonKey = _Api.anonKey;
 }
