@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280378820350",
+    "project_id": "okoa-410215",
+    "storage_bucket": "okoa-410215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280378820350:android:5bf2042a72b40cb07d87af",
+        "android_client_info": {
+          "package_name": "com.kenstarry.okoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280378820350-k220ndbe69mrhalu64rai1pl6p53j71b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3WhsFCMLWkF7XmSRJ5GHpIYvn6-BkIVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280378820350-k220ndbe69mrhalu64rai1pl6p53j71b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
